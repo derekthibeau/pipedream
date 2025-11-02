@@ -728,8 +728,7 @@ importers:
 
   components/alibaba_cloud: {}
 
-  components/alienvault:
-    specifiers: {}
+  components/alienvault: {}
 
   components/all_images_ai:
     dependencies:
@@ -1618,8 +1617,7 @@ importers:
         specifier: ^3.0.0
         version: 3.0.3
 
-  components/beyond_presence:
-    specifiers: {}
+  components/beyond_presence: {}
 
   components/bidsketch:
     dependencies:
@@ -1824,7 +1822,11 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
 
-  components/blotato: {}
+  components/blotato:
+    dependencies:
+      '@pipedream/platform':
+        specifier: ^3.1.0
+        version: 3.1.0
 
   components/blue: {}
 
@@ -2267,6 +2269,8 @@ importers:
       '@pipedream/platform':
         specifier: ^3.0.3
         version: 3.0.3
+
+  components/callhippo: {}
 
   components/callhub:
     dependencies:
@@ -3410,6 +3414,9 @@ importers:
 
   components/cronly: {}
 
+  components/cronlytic:
+    specifiers: {}
+
   components/crossmint: {}
 
   components/crove_app:
@@ -3596,8 +3603,8 @@ importers:
   components/dart:
     dependencies:
       '@pipedream/platform':
-        specifier: ^3.0.0
-        version: 3.0.3
+        specifier: ^3.1.0
+        version: 3.1.0
 
   components/darwinbox: {}
 
@@ -3616,6 +3623,9 @@ importers:
         version: 0.3.2
 
   components/data_police_uk: {}
+
+  components/data_soap:
+    specifiers: {}
 
   components/data_stores:
     dependencies:
@@ -3723,7 +3733,13 @@ importers:
         specifier: ^1.5.1
         version: 1.6.6
 
+  components/decodo:
+    specifiers: {}
+
   components/deel: {}
+
+  components/deep_tagger:
+    specifiers: {}
 
   components/deepgram:
     dependencies:
@@ -3817,6 +3833,9 @@ importers:
       '@pipedream/types':
         specifier: ^0.3.2
         version: 0.3.2
+
+  components/deutschlandgpt:
+    specifiers: {}
 
   components/dev_to:
     dependencies:
@@ -4091,6 +4110,9 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0
 
+  components/documentero:
+    specifiers: {}
+
   components/documenterra:
     dependencies:
       '@pipedream/platform':
@@ -4343,6 +4365,9 @@ importers:
         specifier: ^1.5.1
         version: 1.6.6
 
+  components/dumplingai:
+    specifiers: {}
+
   components/dungeon_fighter_online: {}
 
   components/dust:
@@ -4408,6 +4433,9 @@ importers:
 
   components/easy_projects: {}
 
+  components/easy_redmine:
+    specifiers: {}
+
   components/easybroker: {}
 
   components/easycsv: {}
@@ -4452,6 +4480,9 @@ importers:
         version: 3.0.3
 
   components/ebay: {}
+
+  components/echowin:
+    specifiers: {}
 
   components/echtpost_postcards:
     dependencies:
@@ -4772,6 +4803,9 @@ importers:
         specifier: ^1.1.1
         version: 1.6.6
 
+  components/evervault:
+    specifiers: {}
+
   components/everwebinar:
     dependencies:
       '@pipedream/platform':
@@ -4836,6 +4870,9 @@ importers:
   components/extensiv_integration_manager: {}
 
   components/extracta_ai: {}
+
+  components/extruct_ai:
+    specifiers: {}
 
   components/eyepop_ai: {}
 
@@ -4949,6 +4986,9 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
 
+  components/featherless:
+    specifiers: {}
+
   components/feathery:
     dependencies:
       '@pipedream/platform':
@@ -4996,8 +5036,8 @@ importers:
   components/figma:
     dependencies:
       '@pipedream/platform':
-        specifier: ^1.6.1
-        version: 1.6.6
+        specifier: ^3.1.0
+        version: 3.1.0
 
   components/file_store: {}
 
@@ -5015,6 +5055,9 @@ importers:
       '@pipedream/platform':
         specifier: ^3.0.0
         version: 3.0.3
+
+  components/filescan:
+    specifiers: {}
 
   components/filestack:
     dependencies:
@@ -5188,6 +5231,8 @@ importers:
         version: 4.17.21
 
   components/florm: {}
+
+  components/flotiq: {}
 
   components/flowiseai:
     dependencies:
@@ -5443,6 +5488,9 @@ importers:
       '@pipedream/platform':
         specifier: ^3.1.0
         version: 3.1.0
+      async-retry:
+        specifier: ^1.3.3
+        version: 1.3.3
       form-data:
         specifier: ^4.0.0
         version: 4.0.1
@@ -5947,6 +5995,9 @@ importers:
 
   components/google_chat_developer_app: {}
 
+  components/google_chat_service_account_key:
+    specifiers: {}
+
   components/google_classroom:
     dependencies:
       '@pipedream/platform':
@@ -6307,7 +6358,11 @@ importers:
 
   components/grab_your_reviews: {}
 
-  components/grabpenny: {}
+  components/grabpenny:
+    dependencies:
+      '@pipedream/platform':
+        specifier: ^3.1.0
+        version: 3.1.0
 
   components/graceblocks: {}
 
@@ -6444,6 +6499,9 @@ importers:
 
   components/hana: {}
 
+  components/handelsregister_ai:
+    specifiers: {}
+
   components/handwrytten: {}
 
   components/hansei:
@@ -6489,6 +6547,9 @@ importers:
       moment:
         specifier: ^2.29.4
         version: 2.30.1
+
+  components/hasdata:
+    specifiers: {}
 
   components/hashnode: {}
 
@@ -6621,7 +6682,11 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
 
-  components/hex: {}
+  components/hex:
+    dependencies:
+      '@pipedream/platform':
+        specifier: ^3.1.0
+        version: 3.1.0
 
   components/heygen:
     dependencies:
@@ -7141,7 +7206,11 @@ importers:
         specifier: ^1.2.0
         version: 1.6.6
 
-  components/inmobile: {}
+  components/inmobile:
+    dependencies:
+      '@pipedream/platform':
+        specifier: ^3.1.0
+        version: 3.1.0
 
   components/inoreader:
     dependencies:
@@ -7312,6 +7381,9 @@ importers:
       '@pipedream/platform':
         specifier: ^1.1.1
         version: 1.6.6
+
+  components/ipregistry:
+    specifiers: {}
 
   components/ipstack:
     dependencies:
@@ -8165,6 +8237,9 @@ importers:
         specifier: ^1.0.3
         version: 1.0.3
 
+  components/linkupapi:
+    specifiers: {}
+
   components/linode:
     dependencies:
       '@pipedream/platform':
@@ -8888,8 +8963,8 @@ importers:
   components/microsoft_dynamics_365_sales:
     dependencies:
       '@pipedream/platform':
-        specifier: ^3.0.3
-        version: 3.0.3
+        specifier: ^3.1.0
+        version: 3.1.0
       pluralize:
         specifier: ^8.0.0
         version: 8.0.0
@@ -8963,6 +9038,12 @@ importers:
 
   components/microsoft_outlook_calendar:
     dependencies:
+      '@pipedream/microsoft_outlook':
+        specifier: ^1.7.3
+        version: 1.7.3
+      '@pipedream/pipedream':
+        specifier: ^0.4.2
+        version: 0.4.2
       '@pipedream/platform':
         specifier: ^3.0.3
         version: 3.0.3
@@ -9698,8 +9779,8 @@ importers:
   components/notion:
     dependencies:
       '@notionhq/client':
-        specifier: ^5.0.0
-        version: 5.0.0
+        specifier: ^5.3.0
+        version: 5.3.0
       '@pipedream/platform':
         specifier: ^3.1.0
         version: 3.1.0
@@ -13186,7 +13267,11 @@ importers:
         specifier: 1.6.0
         version: 1.6.0
 
-  components/shopware: {}
+  components/shopware:
+    dependencies:
+      '@pipedream/platform':
+        specifier: ^3.1.0
+        version: 3.1.0
 
   components/short:
     dependencies:
@@ -14634,7 +14719,11 @@ importers:
         specifier: ^1.2.0
         version: 1.6.6
 
-  components/ticketsauce: {}
+  components/ticketsauce:
+    dependencies:
+      '@pipedream/platform':
+        specifier: ^3.1.0
+        version: 3.1.0
 
   components/ticktick:
     dependencies:
@@ -14822,7 +14911,11 @@ importers:
         specifier: ^0.1.4
         version: 0.1.6
 
-  components/topdesk: {}
+  components/topdesk:
+    dependencies:
+      '@pipedream/platform':
+        specifier: ^3.1.0
+        version: 3.1.0
 
   components/topmessage:
     dependencies:
@@ -14903,7 +14996,11 @@ importers:
         specifier: ^3.0.0
         version: 3.0.3
 
-  components/trawlingweb: {}
+  components/trawlingweb:
+    dependencies:
+      '@pipedream/platform':
+        specifier: ^3.1.0
+        version: 3.1.0
 
   components/trello:
     dependencies:
@@ -16243,7 +16340,11 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0
 
-  components/xola: {}
+  components/xola:
+    dependencies:
+      '@pipedream/platform':
+        specifier: ^3.1.0
+        version: 3.1.0
 
   components/xperiencify:
     dependencies:
@@ -20187,8 +20288,8 @@ packages:
     resolution: {integrity: sha512-4pk3dm4umhjsRI0umCnJ8lCZh0TMiaMdkY0rz6FV4OqVuTsmYFV3pk+YTR5S8792ZY2Rm4lJHlLj05HQVKDuIg==}
     engines: {node: '>=18'}
 
-  '@notionhq/client@5.0.0':
-    resolution: {integrity: sha512-eXq0bZTXN8+xwT6e3qlrH9QCUn8mQLJ9UkNgKSew2NKNV/hyKb2wmIzQAuass8a2Q6F1aMjMPi+EGLQwgbVlOA==}
+  '@notionhq/client@5.3.0':
+    resolution: {integrity: sha512-pISuJLrP6XwxnmMZ79jT2XkMHFtbQvslfs6Rqdd29ge0KAmJOuhtWZxE1WXO7h03cj/gVAL2PiAjpFuIWrWJ3w==}
     engines: {node: '>=18'}
 
   '@octokit/auth-token@2.5.0':
@@ -20533,6 +20634,9 @@ packages:
   '@pipedream/linkedin@0.1.1':
     resolution: {integrity: sha512-9pFjaohz/wnJMIRpPmDPqHeWiXUIJVWIPvQudE8TkUjaBbyieDpscy8reWMp96UK9aXz1Z2J2yiNh0msILAX9Q==}
 
+  '@pipedream/microsoft_outlook@1.7.3':
+    resolution: {integrity: sha512-lJvKB6fvnHh9h9hk/z3zWQ3UsGY4U6NcZKpqSX+uEFdslSJI1GU9vY9UmntgPpTt0IuWz8EN5o6XJGb8/twl2w==}
+
   '@pipedream/monday@0.7.0':
     resolution: {integrity: sha512-ovVtLhKMJpOTSoc7JcVLrbVrJxW4BT96eW79TiiPc+DgMSM7ouRmCk5lHL2xCAtrqDForXSrXXGjHOAzhJsytA==}
 
@@ -20541,6 +20645,9 @@ packages:
 
   '@pipedream/notion@1.0.2':
     resolution: {integrity: sha512-qVMpoUOus3E4oYtrPoHq0jciipxY4Y9bOxqaiv6uyUbxOKC5QaVvOIRgge5E++uR7Bf46NepwwTcW7wujktUrw==}
+
+  '@pipedream/pipedream@0.4.2':
+    resolution: {integrity: sha512-BQkSnuXWU8VQvBDVyLrCrs2kGP3vwgyi8t02ONbIF85ZPkuIIhC25QhIMCXL+bWe5eGb3oDQh0PVXwpEi160fQ==}
 
   '@pipedream/platform@0.10.0':
     resolution: {integrity: sha512-N3F/xVfBZQXc9wl+2/4E8U9Zma1rxpvylK6Gtw8Ofmiwjnmnvs+2SNjEpIXBPUeL+wxEkofSGOq7bkqt1hqwDg==}
@@ -38806,7 +38913,7 @@ snapshots:
 
   '@notionhq/client@4.0.2': {}
 
-  '@notionhq/client@5.0.0': {}
+  '@notionhq/client@5.3.0': {}
 
   '@octokit/auth-token@2.5.0':
     dependencies:
@@ -39255,6 +39362,16 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
+  '@pipedream/microsoft_outlook@1.7.3':
+    dependencies:
+      '@pipedream/platform': 3.1.0
+      axios: 0.21.4
+      js-base64: 3.7.7
+      md5: 2.3.0
+      mime-types: 2.1.35
+    transitivePeerDependencies:
+      - debug
+
   '@pipedream/monday@0.7.0':
     dependencies:
       '@pipedream/platform': 3.1.0
@@ -39275,7 +39392,7 @@ snapshots:
 
   '@pipedream/notion@1.0.2':
     dependencies:
-      '@notionhq/client': 5.0.0
+      '@notionhq/client': 5.3.0
       '@pipedream/platform': 3.1.0
       '@tryfabric/martian': 1.2.4
       lodash-es: 4.17.21
@@ -39284,6 +39401,13 @@ snapshots:
       - debug
       - encoding
       - supports-color
+
+  '@pipedream/pipedream@0.4.2':
+    dependencies:
+      '@pipedream/platform': 1.6.6
+      uuidv4: 6.2.13
+    transitivePeerDependencies:
+      - debug
 
   '@pipedream/platform@0.10.0':
     dependencies:
